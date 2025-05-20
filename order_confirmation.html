@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Order Confirmed</title>
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <div class="container">
+        <div class="login-container mt-5" style="max-width: 400px; margin: auto;">
+            <h1>Order Placed!</h1>
+            <p>Order #{{ order.id }} has been submitted for Table {{ order.table_number }}.</p>
+            <a href="{% url 'index' %}">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>

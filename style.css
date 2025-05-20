@@ -1,0 +1,209 @@
+body {
+    background: url(img/hero-image.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+  }
+  nav.navbar {
+      background: rgba(255,255,255,0.7);
+      padding: 0;
+      margin-bottom: 150px;
+  }
+  li.nav-item:last-child a {
+      background: #333;
+      color: #fff !important;
+      border-radius: 5px;
+  }
+    .logo img{
+     width:120px;
+    }
+    .navbar-nav .nav-link {
+      color: #222 !important;
+      font-weight: 500;
+      margin-left: 25px;
+      text-transform:uppercase;
+    }
+    .nav-menu a {
+      margin-left: 40px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      text-transform: uppercase;
+  }
+    .banner {
+      padding: 100px 20px;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 16px;
+      margin: 30px auto;
+      max-width: 800px;
+    }
+    .feature-box {
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 12px;
+      padding: 30px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      height: 100%;
+    }
+    .banner a {
+      background: #222;
+      border: none;
+      border-radius: 5px;
+      text-transform: uppercase;
+  }
+  .banner a:hover {
+      background: #222;
+  }
+  .featre-box {
+      margin: 100px;
+  }
+    .contact-bar {
+      background-color: #343a40;
+      color: #fff;
+      padding: 10px 30px;
+      text-align: center;
+    }
+    .footer {
+      background-color: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+    }
+    .login-container {
+      max-width: 400px;
+      margin: 80px auto;
+      padding: 30px;
+      background-color: rgba(255,255,255,0.7);
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  .login-container button{
+      background:#222;
+      text-transform: uppercase;
+      border:none;
+  }
+  .login-container button:hover{
+      background:#222;
+      text-transform: uppercase;
+      border:none;
+  }
+  .form-label::after {
+      content: "*";
+      color: red;
+      margin-left: 4px;
+  }
+  .form-label.optional::after {
+      content: "";
+  }
+  .menu-container {
+      max-width: 800px;
+      margin: 60px auto;
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 12px;
+      padding: 30px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .menu-section {
+      margin-bottom: 40px;
+    }
+    .menu-section h4 {
+      margin-bottom: 20px;
+      border-bottom: 2px solid #dee2e6;
+      padding-bottom: 8px;
+    }
+    .menu-item {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      padding: 20px 5px;
+      margin-bottom: 20px;
+      text-align: center;
+  }
+    .menu-item h5 {
+      margin-bottom: 10px;
+    }
+    .menu-item p {
+      font-size: 14px;
+  }
+  .qr-section p.lead {
+    color: #fff;
+  }
+  .qr-section {
+    padding: 60px 0;
+    text-align: center;
+  }
+  .qr-section h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  .qr-box {
+    display: inline-block;
+    padding: 20px;
+    border: 2px dashed #ccc;
+    border-radius: 15px;
+    background: #f8f9fa;
+  }
+  .qr-box img {
+    width: 250px;
+    height: 250px;
+  }
+  .admin-dashboard {
+    margin-top: 50px;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-3px);
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .dashboard-icon {
+    font-size: 2rem;
+    color: #333;
+  }
+  .admin-dashboard h2 {color: #fff;}
+  
+  .admin-dashboard .card a {
+      background: #333;
+      border-color: #333;
+  }
+  .staff-panel {
+    margin-top: 50px;
+  }
+  .staff-panel h2{
+    color:#fff;
+  }
+  .table th, .table td {
+    vertical-align: middle;
+  }
+  .staff-panel {
+    min-height: 300px;
+  }
+  .status-badge {
+    font-size: 0.9rem;
+  }
+  .my-color{
+    color:#fff;
+  }
+  .manager {
+    min-height: 500px;
+  }
+  @media only screen and (min-width:320px) and (max-width:767px){
+    a.nav-link {
+      padding: 10px !important;
+      margin-bottom: 5px;
+  }
+  }
